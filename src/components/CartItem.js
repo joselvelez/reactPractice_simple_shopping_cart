@@ -1,10 +1,18 @@
 import React from 'react';
+import './CartItem.css';
 
 function CartItem(props) {
     return(
         <div className="CartItem">
-            <h4>Cart Items</h4>
-            {props.name}
+            <div className="CartItemName">
+                {props.name}
+            </div>
+            <div className="CartItemPrice">
+                {props.price}
+            </div>
+            <div className="CartItemQty">
+                {props.qty}
+            </div>
         </div>
     );
 }

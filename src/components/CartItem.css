@@ -1,0 +1,21 @@
+.CartItem {
+    display: flex;
+    background-color: burlywood;
+    padding: .3em;
+    margin: .3em;
+}
+
+.CartItemName {
+    width: 50%;
+    text-align: left;
+}
+
+.CartItemPrice {
+    width: 25%;
+    text-align: left;
+}
+
+.CartItemQty {
+    width: 25%;
+    text-align: center;
+}

@@ -1,14 +1,18 @@
 import React from 'react';
 import CartItem from './CartItem';
+import './Cart.css';
 
 function Cart({initialData}) {
     return(
         <div className="Cart">
-                {initialData.map(item => {
-                    return(
-                        <CartItem key={item.id} name={item.name} />
-                    )
-                })}
+            <h4>Cart Items</h4>
+            {initialData.map(item => {
+                return(
+                    <div key={item.id}>
+                        <CartItem name={item.name} price={item.price} qty={item.qty} />
+                    </div>
+                )
+            })}
         </div>
     );
 }

@@ -1,0 +1,9 @@
+.Cart {
+    width: 750px;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    border-radius: 7px;
+    margin: 80px;
+    padding: .75em;
+}
