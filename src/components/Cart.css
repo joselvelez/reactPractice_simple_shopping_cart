@@ -7,3 +7,10 @@
     margin: 80px;
     padding: .75em;
 }
+
+.GrandTotal {
+    text-align: right;
+    padding: .4em;
+    margin-right: .5em;
+    font-weight: 700;
+}

@@ -6,16 +6,21 @@
 }
 
 .CartItemName {
-    width: 50%;
+    width: 40%;
     text-align: left;
 }
 
 .CartItemPrice {
-    width: 25%;
+    width: 15%;
     text-align: left;
 }
 
 .CartItemQty {
-    width: 25%;
+    width: 15%;
     text-align: center;
+}
+
+.CartItemSubtotal {
+    width: 20%;
+    text-align: right;
 }
